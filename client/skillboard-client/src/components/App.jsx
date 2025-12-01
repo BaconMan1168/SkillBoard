@@ -8,7 +8,7 @@ import TopicSelection from './topics/TopicSelection';
 import HomePage from './homepage/HomePage';
 import TopicPage from './topics/TopicPage';
 import UserPosts from './user/UserPosts';
-import Navbar from './Navbar/Navbar';
+import Navbar from './navbar/Navbar';
 
 export default function App() {
   const { user, loading } = useContext(AuthContext);

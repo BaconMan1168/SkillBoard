@@ -72,6 +72,7 @@ export default function Post({ post, onPostAction }) {
                         {user && (
                             <div className={styles.commentInputBox}>
                                 <input
+                                    required
                                     value={newComment}
                                     placeholder="Write a comment..."
                                     onChange={e => setNewComment(e.target.value)}

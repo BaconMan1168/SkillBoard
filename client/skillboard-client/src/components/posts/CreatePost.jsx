@@ -17,6 +17,7 @@ export default function CreatePost({ topicId, onPostCreated }) {
     return (
         <form className={styles.form} onSubmit={handleSubmit}>
             <input 
+                required
                 className={styles.input}
                 placeholder="Title" 
                 value={title} 
@@ -24,6 +25,7 @@ export default function CreatePost({ topicId, onPostCreated }) {
             />
 
             <textarea 
+                required
                 className={styles.textarea}
                 placeholder="Body" 
                 value={body} 

@@ -56,12 +56,15 @@ export default function TopicSelection() {
 
                 <ul>
                     {allTopics.map(topic => (
-                        <li key={topic.id}>
+                        <li 
+                            key={topic.id}
+                            onClick={() => toggleTopic(topic.id)}
+                            className={selectedTopics.includes(topic.id) ? styles.selectedTopic : ''} 
+                        >
                             <label>
                                 <input
                                     type="checkbox"
                                     checked={selectedTopics.includes(topic.id)}
-                                    onChange={() => toggleTopic(topic.id)}
                                 />
                                 {topic.title}
                             </label>

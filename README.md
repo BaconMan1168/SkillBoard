@@ -1,6 +1,7 @@
 # 📚 SkillBoard: Academic Support Platform
 
-**LIVE APPLICATION LINK:** [https://skillboard-l2sl.onrender.com](https://skillboard-l2sl.onrender.com)
+**LIVE APPLICATION LINK:** [https://skillboard-client.onrender.com/](https://skillboard-client.onrender.com/)
+
 ---
 
 ## The Problem

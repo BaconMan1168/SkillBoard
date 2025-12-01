@@ -11,27 +11,27 @@ This web app enhances learning for both the student seeking help and the one off
 
 How to use Skillboard:
 
-Creating an Account:
+# Creating an Account:
 1. Register for an account using your name, email, and password
 2. Login to your newly created account using your email and password
 
-Logging out:
+# Logging out:
 1. Use the navigation bar to logout by clicking on 'Logout'
 
-Joining a Topic Page
+# Joining a Topic Page
 1. Use the navigation bar to visit the 'Set Topics' Page.
 2. You can either add a topic/class which doesn't exist by filling out the text input field, or join an existing topic by clicking on its checkbox and 'Save Topics'
 
-Viewing and Creating Posts
+# Viewing and Creating Posts
 1. To view posts, use the navigation bar to visit your desired topic page by clicking on the topic name
 2. To create a post, fill out the title and body input fields at the top of the page and click on 'Create Post'
 
-Updating or Deleting Posts
+# Updating or Deleting Posts
 1. To see your posts, use the navigation bar to visit the 'Your Posts' page
 2. To update a post, click on the 'Edit' button, make changes to the input fields, and click save.
 3. To delete a post, click on the 'Delete' button
 
-Commenting on a post
+# Commenting on a post
 1. Use the navigation bar to visit your desired topic page by clicking on the topic name
 2. Find your desired post and click on the 'Show Comments' button
 3. Fill out the 'Write a Comment' input field and click 'Submit'

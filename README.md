@@ -9,7 +9,7 @@ SkillBoard is a web platform designed for faster peer-to-peer tutoring and help.
 Connection to ‘Learning, Skills & Opportunity’:
 This web app enhances learning for both the student seeking help and the one offering assistance. For the one receiving help, the immediate peer support provided by Skillboard preserves learning momentum and motivation without having to wait for the next day, especially if the work is urgent. With multiple students being able to comment on the same posted question, several alternative perspectives and explanations can help students better understand the concept as a whole. For the ones giving assistance, the ability to help fellow classmates in a variety of topics gives them an opportunity to solidify their own knowledge through teaching. Additionally, students develop both communication and mentorship skills by being able to communicate complex concepts clearly, and strengthen their collaborative skills by working together to solve problems. Finally, by offering a free platform that provides high quality and timely assistance, students have an opportunity to learn more and to improve their teaching in a less formal manner.
 
-How to use Skillboard:
+# How to use Skillboard:
 
 # Creating an Account:
 1. Register for an account using your name, email, and password

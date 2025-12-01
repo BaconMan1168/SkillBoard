@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #cfd8dc;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  overflow-y: auto; 
+}
+
+
+.navLink {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #0a3d62;
+  transition: all 0.2s ease;
+  font-size: 1.25rem
+}
+
+.navLink:hover {
+  background-color: #f0f4f8;
+  transform: translateX(4px);
+}

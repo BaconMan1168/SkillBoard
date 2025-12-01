@@ -1,0 +1,105 @@
+.pageWrapper {
+  margin-left: 220px; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 3rem;
+  background: #f3f7fb;
+}
+
+.topicSelectionContainer {
+  width: 700px;
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.topicSelectionContainer h2 {
+  color: #2f3b52;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.newTopicContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.newTopicContainer input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #c7d6e3;
+  background: #f8fbff;
+  font-size: 0.95rem;
+}
+
+.newTopicContainer button {
+  padding: 0.7rem 1rem;
+  width: auto;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 15px;
+  
+}
+
+.newTopicContainer button:hover {
+  background-color: #e0b30a;
+  transform: translateY(-2px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  background-color: #f3f7fb;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #c7d6e3;
+  cursor: pointer;
+  transition: background-color 0.25s, transform 0.2s ease;
+  font-weight: 500;
+}
+
+li:hover {
+  background-color: #e6eef7;
+  transform: translateY(-3px);
+}
+
+.saveButton {
+  display: block;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  background-color: #5b8cc9; 
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.2s;
+  width: auto; 
+}
+
+.saveButton:hover {
+  background-color: #e0b30a;
+  transform: translateY(-3px);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

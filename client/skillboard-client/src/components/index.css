@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8; 
+  color: #333;
+}
+
+main {
+  margin-left: 200px; 
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+h2, h3, h4 {
+  color: #0a3d62; 
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #fff;
+  font-weight: 500;
+  margin: 4px;
+  transition: all 0.2s ease;
+  background-color: #5b8cc9; 
+}
+
+button:hover {
+  background-color: #e0b30a;
+  transform: translateY(-2px);
+}
+
+input, textarea, select {
+  border-radius: 6px;
+  border: 1px solid #cfd8dc;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #0a3d62;
+  box-shadow: 0 0 6px rgba(10, 61, 98, 0.3);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #0a3d62;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

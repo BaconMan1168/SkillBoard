@@ -1,0 +1,36 @@
+.comment {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: background 0.2s ease;
+  border: 1px solid #e6e6e6;
+}
+
+.comment:hover {
+  background: #f8fbff;
+}
+
+.commentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  font-weight: 600;
+  color: #2a4d7c;
+}
+
+.body {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+.date {
+  font-size: 0.8rem;
+  color: #777;
+}

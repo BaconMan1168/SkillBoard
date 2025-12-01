@@ -1,4 +1,4 @@
-# SkillBoard
+# 📚 SkillBoard: Academic Support Platform
 
 The Problem:
 Students frequently face a gap in academic support: the lack of accessible and immediate help outside of a teacher's working hours. When a student gets stuck on a concept or homework problem during evening study sessions, students face long delays that stall learning momentum and motivation. Current solutions are inadequate: a teacher might only respond in a timely manner just a few hours after school ends. Generic online forums fail to provide the context and class-specific assistance, especially for less standardized courses like 'AT Multivariable Calculus'.
@@ -8,6 +8,17 @@ SkillBoard is a web platform designed for faster peer-to-peer tutoring and help.
 
 Connection to ‘Learning, Skills & Opportunity’:
 This web app enhances learning for both the student seeking help and the one offering assistance. For the one receiving help, the immediate peer support provided by Skillboard preserves learning momentum and motivation without having to wait for the next day, especially if the work is urgent. With multiple students being able to comment on the same posted question, several alternative perspectives and explanations can help students better understand the concept as a whole. For the ones giving assistance, the ability to help fellow classmates in a variety of topics gives them an opportunity to solidify their own knowledge through teaching. Additionally, students develop both communication and mentorship skills by being able to communicate complex concepts clearly, and strengthen their collaborative skills by working together to solve problems. Finally, by offering a free platform that provides high quality and timely assistance, students have an opportunity to learn more and to improve their teaching in a less formal manner.
+
+## ⚙️ Technical Stack & Development
+
+### Technologies Used
+
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Frontend** | [React] | User interface and client-side logic. |
+| **Styling** | [CSS Modules] | Responsive design and visual aesthetics. |
+| **Backend/API** | [Node.js (Express)] | Handling user authentication and post management. |
+| **Database** | [PostgreSQL, Prisma ORM] | Storing users, courses/topics, posts, and comments. |
 
 # How to use Skillboard:
 

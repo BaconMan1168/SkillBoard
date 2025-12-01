@@ -5,7 +5,7 @@ import { AuthContext } from './AuthContext';
 import Login from './auth/Login';
 import Register from './auth/Register';
 import TopicSelection from './topics/TopicSelection';
-import HomePage from './HomePage/HomePage';
+import HomePage from './homepage/HomePage';
 import TopicPage from './topics/TopicPage';
 import UserPosts from './user/UserPosts';
 import Navbar from './Navbar/Navbar';

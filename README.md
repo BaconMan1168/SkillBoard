@@ -135,3 +135,6 @@ The application will be accessible at the frontend local URL.
 2. Find your desired post and click on the 'Show Comments' button
 3. Fill out the 'Write a Comment' input field and click 'Submit'
 
+### Team & Contributions
+
+* **[Daniel]:** Full-Stack Development (React, Node.js, API design, Database integration).

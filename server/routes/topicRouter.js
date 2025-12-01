@@ -8,8 +8,9 @@ topicRouter.get('/', getAllTopics);
 topicRouter.put('/select', selectTopics);
 topicRouter.get('/me', getUserTopics);
 
+topicRouter.post('/create', createTopic);
 topicRouter.get('/:topicId', getPostsByTopic);
 topicRouter.post('/:topicId', createPost);
-topicRouter.post('/create', createTopic);
+
 
 module.exports = topicRouter;
